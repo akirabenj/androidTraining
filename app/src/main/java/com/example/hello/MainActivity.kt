@@ -47,6 +47,7 @@ class MainActivity : AppCompatActivity() {
         for(s in array) {
             result += s + "\n"
         }
+        println("123")
 
         printValue(result)
     }
