@@ -48,6 +48,8 @@ class MainActivity : AppCompatActivity() {
             result += s + "\n"
         }
 
+        println("gjg")
+
         printValue(result)
     }
 
