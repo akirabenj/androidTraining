@@ -36,10 +36,10 @@ class MainActivity : AppCompatActivity() {
         val sideValueS = input2?.text.toString().toInt()
         triangle = Triangle(sideValueT)
         square = Square(sideValueS)
-        val triangleP = "P треугольника: ${triangle?.perimeter()}"
-        val triangleS = "S треугольника: ${triangle?.square()}"
-        val squareP = "P квадрата: ${square?.perimeter()}"
-        val squareS = "S квадрата: ${square?.square()}"
+        val triangleP = "Периметр треугольника: ${triangle?.perimeter()}"
+        val triangleS = "Площадь треугольника: ${triangle?.square()}"
+        val squareP = "Периметр квадрата: ${square?.perimeter()}"
+        val squareS = "Площадь квадрата: ${square?.square()}"
         val array = arrayOf(triangleP, triangleS, squareP, squareS)
 
         var result = ""
